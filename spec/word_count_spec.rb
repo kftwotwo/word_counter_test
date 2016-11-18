@@ -5,21 +5,21 @@ require('word_count')
 
 describe('Sting#word_counter') do
   it "will return an array" do
-    expect("".word_counter(1)).to be_an(Array)
+    expect("".word_counter("")).to be_an(Array)
   end
   it "will return 'h' in the array" do
-    expect("h".word_counter(1)).to include(String)
+    expect("h".word_counter("h")).to include(String)
   end
   it "will return 'h' in the array" do
-    expect("h".word_counter(1)).to(eq(["h"]))
+    expect("h".word_counter("h")).to(eq(["h"]))
   end
   it "will split the the words in the array" do
-    expect("hello cat".word_counter(2)).to(eq(["hello", "cat"]))
+    expect("hello cat".word_counter("hello cat")).to(eq(["hello", "cat"]))
   end
   it "will not be case sensitve" do
-    expect("HeLLo CaT".word_counter(2)).to(eq(["hello", "cat"]))
+    expect("HeLLo".word_counter("HeLLo Cat")).to(eq(["hello"]))
   end
-  it "will see if the word and the sentence are =" do
-    expect("world".word_counter("the world is ditry")).to(eq(["world"]))
+  it "will add 1 ev everytime it finds the word" do
+    expect("hello".word_counter("this is hello")).to(eq(1))
   end
 end
