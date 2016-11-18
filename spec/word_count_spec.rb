@@ -16,4 +16,7 @@ describe('Sting#word_counter') do
   it "will split the the words in the array" do
     expect("hello cat".word_counter()).to(eq(["hello", "cat"]))
   end
+  it "will not be case sensitve" do
+    expect("HeLLo CaT".word_counter()).to(eq(["hello", "cat"]))
+  end
 end

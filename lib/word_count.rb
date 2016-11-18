@@ -1,5 +1,5 @@
 class String
   define_method(:word_counter) do
-    self.split(" ")
+    self.downcase.split(" ")
   end
 end
