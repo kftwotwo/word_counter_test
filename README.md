@@ -1,4 +1,4 @@
- # Word Count
+# Word Counter
 
 _Text Adventure, 11-18-2016_
 
