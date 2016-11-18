@@ -6,33 +6,34 @@ _Text Adventure, 11-18-2016_
 
 ## Description
 
-This is a word counter you put in one word and the second input you put a sentence and it will tell you how many times that word was used.
+This is a word counterer you put in one word and the second input you put a sentence and it will tell you how many times that word was used.
 
 ## Setup/Installation Requirements
 
-Go to github and clone the repository `https://github.com/kftwotwo/word_count_test.git`.  Once the repository is cloned:
+Clone the repository `https://github.com/kftwotwo/word_counter_test.git`.  
+Once the repository is cloned:
 ```
-$ git clone https://github.com/kftwotwo/word_count_test.git
-$ cd word_count_test
+$ git clone https://github.com/kftwotwo/word_counter_test.git
+$ cd word_counter_test
 $ bundle install
 ```
 
 ## Known Bugs
 
-If you do notice any bugs or an idea for this page you can go here https://github.com/kftwotwo/word_count_test/issues and fill out a new issue.
+If you do notice any bugs or have a better idea for this page you can go here https://github.com/kftwotwo/word_counter_test/issues and fill out a new issue.
 
 ## Support and contact details
 
-You can reach me on my email.
+You can reach me on my email or my [wesite](http://www.kfinley.com/contacts/new) and fill out a contact.
 ```
 Kevin Finley: kf.two.two@gmail.com
 ```
 
 ## Contribute
 
-Issue Tracker: https://github.com/kftwotwo/word_count_test/issues
+Issue Tracker: https://github.com/kftwotwo/word_counter_test/issues
 
-Source Code: https://github.com/kftwotwo/word_count_test
+Source Code: https://github.com/kftwotwo/word_counter_test
 
 
 ##  Technologies Used
