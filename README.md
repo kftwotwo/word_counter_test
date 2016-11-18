@@ -42,7 +42,6 @@ Source Code: https://github.com/kftwotwo/word_counter_test
 HTML
 Ruby
 CSS
-JQuery-3.1.1
 ```
 ### License
 
