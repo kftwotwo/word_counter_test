@@ -6,7 +6,7 @@ _Text Adventure, 11-18-2016_
 
 ## Description
 
-This is a word counterer you put in one word and the second input you put a sentence and it will tell you how many times that word was used.
+This is a word counterer you put in one word and the second input you put a sentence and it will tell you how many times that word was used. Here is the live website https://secret-sands-62185.herokuapp.com
 
 ## Setup/Installation Requirements
 
@@ -41,7 +41,7 @@ Source Code: https://github.com/kftwotwo/word_counter_test
 ```
 HTML
 Ruby
-CSS
+Heroku
 ```
 ### License
 
