@@ -1,4 +1,5 @@
 require('rspec')
+require('pry')
 require('word_count')
 
 #it will recive a word from user like "cat" and the user will input a sentance like "the cat in the hat the cat was scared for life" and it will count how many times its in the sentance
