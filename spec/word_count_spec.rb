@@ -23,16 +23,3 @@ describe('Sting#word_counter') do
     expect("hello".word_counter("this is hello")).to(eq(1))
   end
 end
-
-
-
-#     it "will receive 'ab' and argument of 2 and return ['ab']" do
-#       expect("ab".word_number(2)).to(eq(["ab"]))
-#     end
-#     it "will receive 'ab' and an argument of 3 and return []" do
-#       expect("ab".word_number(3)).to(eq([]))
-#     end
-#     it "will receive 'a dog' and argument of 2 and return ['dog']" do
-#       expect("a dog".word_number(2)).to(eq(["dog"]))
-#     end
-#   end
