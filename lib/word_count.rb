@@ -1,5 +1,5 @@
 class String
-  define_method(:word_counter) do |number|
-    ["h"]
+  define_method(:word_counter) do
+    self.split(" ")
   end
 end
