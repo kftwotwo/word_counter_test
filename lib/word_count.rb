@@ -3,7 +3,7 @@ class String
     total = 0
     input = self.downcase()
     sent.split(" ").each() do |word|
-      if word.downcase() == input
+      if word =~ /#{input}/i
         total += 1
       end
     end

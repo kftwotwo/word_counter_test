@@ -23,4 +23,7 @@ describe('Sting#word_counter') do
   it "will ingore others words except the word you inputted to find and add 1 everytime it finds the word in the argument" do
     expect("hello".word_counter("this is hello")).to(eq(1))
   end
+  it "will find cat in catnip" do
+    expect("cat".word_counter("catnip")).to(eq(1))
+  end
 end
